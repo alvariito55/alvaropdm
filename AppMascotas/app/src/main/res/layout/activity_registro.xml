@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="alvaro.appmascotas.RegistroActivity"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO"
+        android:id="@+id/textView_registro"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:id="@+id/textView_nombre_registro"
+        android:layout_marginTop="71dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView_registro"
+        android:layout_alignStart="@+id/textView_registro" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_nombre_registro"
+        android:textSize="15dp"
+        android:width="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/textView_nombre_registro"
+        android:layout_toEndOf="@+id/textView_nombre_registro"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:id="@+id/textView_password_registro"
+        android:layout_below="@+id/textView_telefono"
+        android:layout_alignStart="@+id/textView_telefono"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password_registro"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/textView_password_registro"
+        android:layout_alignEnd="@+id/editText_nombre_registro"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:id="@+id/textView_correo_registro"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/textView_nombre_registro"
+        android:layout_alignStart="@+id/textView_nombre_registro"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:id="@+id/textView_telefono"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView_correo_registro" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText_correo_registro"
+        android:layout_below="@+id/editText_nombre_registro"
+        android:layout_toEndOf="@+id/textView_password_registro"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText2_telefono"
+        android:layout_alignBottom="@+id/textView_telefono"
+        android:layout_alignStart="@+id/editText_correo_registro"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarme"
+        android:id="@+id/button_registrarme"
+        android:layout_below="@+id/editText_password_registro"
+        android:layout_alignStart="@+id/textView_password_registro"
+        android:layout_marginTop="26dp" />
+
+</RelativeLayout>

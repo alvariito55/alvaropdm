@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="alvaro.appmascotas.SubirAnuncioActivity"
+    android:id="@+id/content_subir_anuncios">
+
+    <requestFocus
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1"
+            android:gravity="top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Introduzca las características de su anuncio"
+                android:id="@+id/textView_caracteristicas"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Su localizacion actual es:"
+                android:id="@+id/textView_ciudad"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:layout_below="@+id/textView_caracteristicas"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_ciudad"
+                android:hint="Introduzca su ciudad"
+                android:maxLines="1"
+                android:minLines="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anuncio:"
+                android:id="@+id/textView_anuncio"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_anuncio"
+                android:hint="Introduzca su anuncio"
+                android:singleLine="false"
+                android:layout_below="@+id/textView_anuncio"
+                android:maxLines="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Elegir fecha y hora de inicio"
+                android:id="@+id/textView_fechaHoraInicio"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="0dp"
+                android:textColor="#000000"
+                android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:ems="10"
+                android:id="@+id/editText_fecha_inicio"
+                android:hint="Toca para elegir fecha"
+                android:editable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Elegir fecha y hora de fin"
+                android:id="@+id/textView_fechaHoraFinal"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="0dp"
+                android:textColor="#000000"
+                android:layout_gravity="top"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText_fecha_fin"
+                android:layout_gravity="center_horizontal"
+                android:hint="Toca para elegir fecha"
+                android:editable="false"
+                android:inputType="none" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Añadir"
+                android:id="@+id/button_aniadir"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

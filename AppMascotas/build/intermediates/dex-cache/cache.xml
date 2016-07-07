@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Alvaro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_ebbb4e0d55fa5b6eeaac3d9b858900b5b06c71cd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/libs/httpcore-4.4.4 15.49.40.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="823ee896627586af0f83ecf7110fea59d9456e74">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.4 15.49.40_39665bc9eb97aac2baa38f51d309c36d4d61133f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0cd9b59ba95c2ebc55a6355992ce6ebab9328460">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_18f83ad4b8689c83ee1b09652988e80cd3dea394/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_bfb63f5b308a93ddb246f180a73b53c881456ef3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/libs/httpclient-4.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.5.2_94221f698baa62eedcc03cea9b6ee4439c552751/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_281d18f38f89f9e145f6bc0eee4446ca93cde7f7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_47527b3e1600e6d710636b3414da7e5c9da2f695/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_8cbd03ca22cde162f7889361e9b88c3a8c7bf7ba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_667b03bd3e2683e11252a102951fb0390bafac2d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_313000c9b4453f93285e485725a3949f5a92631d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_59e120baadc72f83b0c2370abf38e701612c6b72/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="369c54992168a626c05aabfc8ef3588373fdbcc0">
+        <dex dex="/Users/Alvaro/Dropbox/Ingeniería Informatica/4º curso/Cuatrimestre 2/PDM/appMascotas/AppMascotas/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_96b9da92cf0f5c2230fedd1baa20006f9caf5556/classes.dex" />
+    </item>
+
+</items>

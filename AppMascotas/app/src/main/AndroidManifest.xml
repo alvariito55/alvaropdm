@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="alvaro.appmascotas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistroActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".MisAnunciosActivity"
+            android:label="@string/title_activity_misanuncios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubirAnuncioActivity"
+            android:label="Subiendo anuncio"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PopupFechaHoraActivity"
+            android:label="Fecha y hora" />
+        <activity
+            android:name=".MisMensajesActivity"
+            android:label="Mensajes" />
+
+        <!-- Content Provider
+          - enabled: habilitado
+          - exported: disponible para aplicaciones de terceros, podra usar URI para acceder a mi ContentProvider
+          - permission: permiso que le damos al provider para
+       -->
+        <provider
+            android:authorities="@string/content_authority"
+            android:name=".PetPadProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:syncable="true"
+            android:permission="com.example.android.sunshine.app.LICENSE_TO_KILL"/>
+
+        <!-- SyncAdapter's dummy authentication service -->
+        <service android:name=".servicios.SunshineAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <!-- SyncAdapter service -->
+        <service
+            android:name=".servicios.SunshineSyncService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
+    </application>
+
+</manifest>

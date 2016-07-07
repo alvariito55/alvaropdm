@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="alvaro.appmascotas.HomeActivity"
+    tools:showIn="@layout/app_bar_home"
+    android:id="@+id/content_home"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar Anuncio:"
+        android:id="@+id/textView_buscar_anuncio"
+        android:textSize="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_buscar_anuncio"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView_buscar_anuncio"
+        android:layout_marginTop="5dp"
+        android:hint="Introduce una ciudad"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:id="@+id/button_buscar"
+        android:layout_below="@+id/editText_buscar_anuncio"
+        android:layout_alignEnd="@+id/editText_buscar_anuncio" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_todos_los_anuncios"
+        android:layout_below="@+id/button_buscar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar ciudad por ubicacion"
+        android:id="@+id/button_buscar_ubicacion"
+        android:layout_alignTop="@+id/button_buscar"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
